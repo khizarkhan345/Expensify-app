@@ -18,9 +18,7 @@ store.subscribe(() => {
     console.log(visibleExpenses);
   });
 
-  const expenseOne = store.dispatch(addExpense({description: 'Water bill', amount: 4500}));
-  const expenseTwo = store.dispatch(addExpense({description: 'Gas bill', createdAt: 1}));
-  const expenseThree = store.dispatch(addExpense({description: 'Internet bill', amount: 109500}));
+  
 
 
   const jsx = (
